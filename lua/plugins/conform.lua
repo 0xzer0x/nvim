@@ -11,7 +11,6 @@ return {
       bash = { "shfmt" },
       zsh = { "shfmt" },
       nginx = { "nginxfmt" },
-      nix = { "nixfmt" },
     },
   },
 }
