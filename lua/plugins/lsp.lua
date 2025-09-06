@@ -25,6 +25,7 @@ return {
       servers = {
         bashls = {},
         nginx_language_server = {},
+        nixd = {},
       },
     },
   },
