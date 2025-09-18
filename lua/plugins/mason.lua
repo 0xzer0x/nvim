@@ -1,10 +1,11 @@
 return {
   {
     "mason-org/mason.nvim",
-    version = "1.11.0",
     opts = {
       ui = { border = "rounded" },
       ensure_installed = {
+        -- NOTE: Treesitter CLI
+        "tree-sitter-cli",
         -- NOTE: formatters
         "prettier",
         "clang-format",
@@ -19,8 +20,5 @@ return {
       },
     },
   },
-  {
-    "mason-org/mason-lspconfig.nvim",
-    version = "1.32.0",
-  },
+  "mason-org/mason-lspconfig.nvim",
 }
