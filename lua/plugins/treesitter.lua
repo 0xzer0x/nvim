@@ -24,6 +24,7 @@ return {
       "markdown_inline",
       "printf",
       "python",
+      "requirements",
       "query",
       "regex",
       "toml",
@@ -61,6 +62,8 @@ return {
       "vhs",
       "csv",
       "cmake",
+      "latex",
+      "typst",
     },
   },
 }
