@@ -6,7 +6,7 @@ return {
       yaml = { "prettier" },
       c = { "clang-format" },
       cpp = { "clang-format" },
-      python = { "black", "isort" },
+      python = { "ruff_format", "ruff_organize_imports" },
       sh = { "shfmt" },
       bash = { "shfmt" },
       zsh = { "shfmt" },

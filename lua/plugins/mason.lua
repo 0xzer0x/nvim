@@ -9,8 +9,6 @@ return {
         -- NOTE: formatters
         "prettier",
         "clang-format",
-        "black",
-        "isort",
         "shfmt",
         "nginx-config-formatter",
         -- NOTE: linters
