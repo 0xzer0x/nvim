@@ -13,7 +13,6 @@ return {
         "isort",
         "shfmt",
         "nginx-config-formatter",
-        "nixfmt",
         -- NOTE: linters
         "markdownlint-cli2",
         "shellcheck",
