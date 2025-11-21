@@ -1,3 +1,5 @@
+local lspconfig = require("config.utils").lspconfig
+
 return {
   {
     "neovim/nvim-lspconfig",
@@ -20,13 +22,13 @@ return {
           border = "rounded",
         },
       },
-
       -- NOTE: additional LSPs
-      servers = {
-        bashls = {},
-        nginx_language_server = {},
-        nixd = {},
-      },
+      servers = lspconfig({
+        "bashls",
+        "nginx_language_server",
+        "nixd",
+        "yamlls",
+      }),
     },
   },
 }
