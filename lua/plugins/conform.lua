@@ -9,6 +9,7 @@ return {
       yaml = { "prettier" },
       c = { "clang-format" },
       cpp = { "clang-format" },
+      cmake = { "cmake_format" },
       python = { "ruff_format", "ruff_organize_imports" },
       sh = { "shfmt" },
       bash = { "shfmt" },
