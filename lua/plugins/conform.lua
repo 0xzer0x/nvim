@@ -16,6 +16,7 @@ return {
       zsh = { "shfmt" },
       nginx = { "nginxfmt" },
       nix = { "nixfmt" },
+      dockerfile = { "dockerfmt", lsp_format = "fallback" },
     },
   },
 }
