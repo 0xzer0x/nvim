@@ -11,6 +11,7 @@ return {
         "clang-format",
         "shfmt",
         "nginx-config-formatter",
+        "hclfmt",
         -- NOTE: linters
         "markdownlint-cli2",
         "shellcheck",
