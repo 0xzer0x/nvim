@@ -7,14 +7,15 @@ return {
         -- NOTE: Treesitter CLI
         "tree-sitter-cli",
         -- NOTE: formatters
-        "prettier",
         "clang-format",
         "shfmt",
         "nginx-config-formatter",
         "hclfmt",
+        "oxfmt",
         -- NOTE: linters
         "markdownlint-cli2",
         "shellcheck",
+        "oxlint",
       },
     },
   },
