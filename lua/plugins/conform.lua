@@ -2,15 +2,6 @@ return {
   "stevearc/conform.nvim",
   opts = {
     formatters_by_ft = {
-      html = { "oxfmt" },
-      css = { "oxfmt" },
-      scss = { "oxfmt" },
-      markdown = { "oxfmt" },
-      javascript = { "oxfmt" },
-      javascriptreact = { "oxfmt" },
-      typescript = { "oxfmt" },
-      typescriptreact = { "oxfmt" },
-      yaml = { "oxfmt" },
       c = { "clang-format" },
       cpp = { "clang-format" },
       cmake = { "cmake_format" },
