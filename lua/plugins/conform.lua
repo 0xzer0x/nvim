@@ -18,6 +18,7 @@ return {
       nix = { "nixfmt" },
       dockerfile = { "dockerfmt", lsp_format = "fallback" },
       hcl = { "hcl" },
+      toml = { "tombi" },
     },
   },
 }

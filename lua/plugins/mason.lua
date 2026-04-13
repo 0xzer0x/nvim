@@ -11,11 +11,9 @@ return {
         "shfmt",
         "nginx-config-formatter",
         "hclfmt",
-        "oxfmt",
         -- NOTE: linters
         "markdownlint-cli2",
         "shellcheck",
-        "oxlint",
       },
     },
   },

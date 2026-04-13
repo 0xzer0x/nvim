@@ -28,6 +28,7 @@ return {
         "nginx_language_server",
         "nixd",
         "yamlls",
+        "tombi",
       }),
     },
   },
